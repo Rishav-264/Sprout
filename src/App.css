@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color:white;
+}
+.mainBackground{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.homepage{
+  min-height: 754px;
+  width:100%;
+}
+.container{
+  margin: 0;
+  padding: 0;
+}
+.box{
+  height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxBackground{
+  background-color: #F6CFCA;
+}
+.TagLine{
+  font-family: 'Cedarville Cursive', cursive;
+  text-align: center;
+}
+.animatedButtonContainer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.animatedButton{
+  position: relative;
+  display: block;
+  width:30%;
+  color: black;
+  font-size: 14px;
+  font-family: 'Itim', cursive;
+  text-decoration: none;
+  border: 2px solid #ff7675;
+  padding: 7px 20px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+.animatedButton::before{
+  background: #ff7675;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+  width: 0%;
+  height: 100%;
+}
+.animatedButton:hover::before{
+  width: 100%;
+}
+.animatedButtonContainer1{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.animatedButton1{
+  position: relative;
+  display: block;
+  width:30%;
+  color: black;
+  font-size: 14px;
+  font-family: 'Itim', cursive;
+  text-decoration: none;
+  border: 2px solid #ff7675;
+  padding: 7px 20px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+.animatedButton1::before{
+  background: #ff7675;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+  width: 0%;
+  height: 100%;
+}
+.animatedButton1:hover::before{
+  width: 100%;
+}
