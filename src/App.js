@@ -36,7 +36,7 @@ function App() {
                              </Grid>
                              <Grid item xs={6} align="right">
                              <Card style={{width:"430px",height:"350px"}}>
-                                <CardMedia image="Rohini1.jpeg" style={{width:"500px",height:"100%"}}>
+                                <CardMedia image={process.env.PUBLIC_URL + "./Rohini1.jpeg"} style={{width:"500px",height:"100%"}}>
                                 </CardMedia>
                             </Card>
                              </Grid>
@@ -65,7 +65,7 @@ function App() {
                              </Grid>
                              <Grid item xs={6} align="right">
                              <Card style={{width:"430px",height:"350px"}}>
-                                <CardMedia image="Rohini2.jpeg" style={{width:"500px",height:"100%"}}>
+                                <CardMedia image={process.env.PUBLIC_URL + "Rohini2.jpeg"} style={{width:"500px",height:"100%"}}>
                                 </CardMedia>
                             </Card>
                              </Grid>
@@ -95,7 +95,7 @@ function App() {
                              </Grid>
                              <Grid item xs={6} align="center">
                              <Card style={{width:"430px",height:"350px"}}>
-                                <CardMedia image="Rohini3.jpeg" style={{width:"300px",height:"100%"}}>
+                                <CardMedia image={process.env.PUBLIC_URL + "Rohini3.jpeg"} style={{width:"300px",height:"100%"}}>
                                 </CardMedia>
                             </Card>
                              </Grid>
@@ -126,7 +126,7 @@ function App() {
                              </Grid>
                              <Grid item xs={6} align="center">
                              <Card style={{width:"430px",height:"350px"}}>
-                                <CardMedia image="RishavIsTheBest.jpeg" style={{width:"300px",height:"100%"}}>
+                                <CardMedia image={process.env.PUBLIC_URL + "RishavIsTheBest.jpeg"} style={{width:"300px",height:"100%"}}>
                                 </CardMedia>
                             </Card>
                              </Grid>
